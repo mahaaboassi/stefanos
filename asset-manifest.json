@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/stefano/static/css/main.e5b8cbce.css",
-    "main.js": "/stefano/static/js/main.121ebfa2.js",
+    "main.js": "/stefano/static/js/main.eabdc97a.js",
     "static/js/488.9d97ac5d.chunk.js": "/stefano/static/js/488.9d97ac5d.chunk.js",
     "static/media/vecteezy_delicious-fast-food-burger-hamburger-cheeseburger_47827678.png": "/stefano/static/media/vecteezy_delicious-fast-food-burger-hamburger-cheeseburger_47827678.9f9ebda7953574168b51.png",
     "static/media/vecteezy_homemade-a-full-roasted-chicken-with-lemon-potatoes-and_46430071.png": "/stefano/static/media/vecteezy_homemade-a-full-roasted-chicken-with-lemon-potatoes-and_46430071.d9525286eaa58bd6a15e.png",
@@ -10,11 +10,11 @@
     "static/media/stefanos.png": "/stefano/static/media/stefanos.f1dde88db9d958b0f552.png",
     "index.html": "/stefano/index.html",
     "main.e5b8cbce.css.map": "/stefano/static/css/main.e5b8cbce.css.map",
-    "main.121ebfa2.js.map": "/stefano/static/js/main.121ebfa2.js.map",
+    "main.eabdc97a.js.map": "/stefano/static/js/main.eabdc97a.js.map",
     "488.9d97ac5d.chunk.js.map": "/stefano/static/js/488.9d97ac5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5b8cbce.css",
-    "static/js/main.121ebfa2.js"
+    "static/js/main.eabdc97a.js"
   ]
 }
