@@ -1,4 +1,4 @@
-import img from "./images/curry-chicken-soup-mixed-vegetable-soup-hot-and-sour-soup-tomato-soup-cream-soup-a06d007977cc04bd5260de9e4b2a5fa4.png"
+import img from "./images/nn.png"
 import sandwich from "./images/vecteezy_delicious-fast-food-burger-hamburger-cheeseburger_47827678.png"
 import pizza from "./images/vecteezy_delicious-pizza-with-mozzarella-and-cherry-tomatoes-isolated_49087875.png"
 import food from "./images/vecteezy_homemade-a-full-roasted-chicken-with-lemon-potatoes-and_46430071.png"
