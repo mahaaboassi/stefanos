@@ -2,7 +2,6 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mahaaboassi.github.io/stefano",
   "dependencies": {
     "cra-template": "1.2.0",
     "qrcode": "^1.5.4",

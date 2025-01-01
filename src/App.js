@@ -8,7 +8,7 @@ import Details from "./pages/menu/detailsPlate";
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter >
       <Routes>
         <Route path="/" element={<QR/>} />
         <Route path="/menu" element={<Menu/>} />
