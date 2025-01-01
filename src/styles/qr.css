@@ -1,0 +1,21 @@
+.container{
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    height: 100vh;
+    width: 100%;
+}
+.img-move{
+    animation: move 2s ease-in-out infinite;
+}
+@keyframes move {
+    0% {
+        transform: rotate(2deg); 
+      }
+      50% {
+        transform: rotate(-2deg); 
+      }
+      100% {
+        transform: rotate(2deg);
+      }
+    
+}

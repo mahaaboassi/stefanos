@@ -1,0 +1,18 @@
+:root{
+    --main-color : #ec1f27 ;
+    --secondary-color : #229646 ;
+    --dark-color : black;
+    --light-color : white;
+
+    /* Fonts */
+    --font_size_4xl : clamp(1.9rem, 2.71vw + 0.54rem, 3.8rem);
+    --font-size-3xl : clamp(1.8rem, 2vw + 0.8rem, 3.2rem);
+    --font-size-xxl : clamp(1.2rem, 0.86vw + 0.77rem, 1.8rem);
+    --font-size-xl : clamp(1.1rem, 0.71vw + 0.74rem, 1.6rem);
+    --font-size-l : clamp(1rem, 0.57vw + 0.71rem, 1.4rem);
+    --font-size-s : clamp(0.9rem, 0.43vw + 0.69rem, 1.2rem);
+    --font-size-xs : clamp(0.8rem, 0.29vw + 0.66rem, 1rem);
+    --font-size-xxs : clamp(0.7rem, 0.29vw + 0.56rem, 0.9rem);
+    /* Shadow */
+    --shadow-box : 0 4px 4px 0 rgba(0,0,0,0.25);
+}

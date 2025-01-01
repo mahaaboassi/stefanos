@@ -1,0 +1,116 @@
+.container-nav{
+    /* background-color: var(--dark-color); */
+}
+
+
+
+.card{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: var(--shadow-box);
+    background : black;
+    color: var(--light-color);
+    height: 150px;
+    position: relative;
+    cursor: pointer;
+}
+.card::after{
+    content: "Start Now /ابدأ الاّن";
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: var(--shadow-box);
+    background : var(--light-color);
+    color: var(--dark-color);
+    height: 150px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 1;
+    transition: 0.3s;
+}
+.card:hover::after{
+    right: 0;
+    opacity: 1;
+}
+.img-card{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top :-50%;
+    cursor: pointer;
+    z-index: 2;
+}
+.card-sub{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: var(--shadow-box);
+    background : black;
+    color: var(--light-color);
+    position: relative;
+}
+.content-sub{
+    border-bottom: 2px  dotted var(--light-color);
+    padding: 10px 0;
+    transition: 0.3s;
+
+}
+.content-sub:hover{
+    border-bottom: 2px  dotted rgba(255, 0, 0, 0.303);
+    cursor: pointer;
+
+}
+.content-sub:hover img{
+    animation: top-button 0.3s 1   ease-in-out;
+}
+.price{
+    color : var(--secondary-color)
+}
+@keyframes top-button {
+    0% {
+        transform: rotate(2deg); 
+      }
+      50% {
+        transform: rotate(-2deg); 
+      }
+      100% {
+        transform: rotate(2deg);
+      }
+}
+.sub-img{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top : -80px;
+    z-index: 2;
+}
+.link-back{
+    transition: 0.3s;
+}
+.link-back:hover{
+    color: var(--secondary-color);
+}
+@media (max-width: 640px) {
+    .card{
+        height: 130px;
+    }
+    .img-card{
+        top :-50%
+    }
+    .card svg{
+        width: 100px;
+    }
+    
+}
