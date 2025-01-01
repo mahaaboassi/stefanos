@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import QRCode from "qrcode";
-import { useTranslation } from "react-i18next";
+
 // import logo
 import logo from "../../images/stefanos.png"
 
 function QR() {
   const [qrCode, setQrCode] = useState("");
-  const {t} = useTranslation()
+
   // Your HTTPS link
   const link = window.location.host + "/menu"; // Replace with your link
 
