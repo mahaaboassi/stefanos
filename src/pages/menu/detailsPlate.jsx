@@ -21,12 +21,12 @@ function Details() {
          <div className="container-nav">
             <div className="flex justify-center "><img className="img-move w-52 md:w-80" alt="logo" src={logo} /></div>
             <h3 className="flex justify-center py-2">{menu.nameEn} / {menu.nameAr}</h3>
-            <div className="flex justify-center cursor-pointer link-back" onClick={()=>navigate(`/menu/${menu.id}`)}>Back / عودة</div>
+            <div className="flex justify-center cursor-pointer link-back" onClick={()=>navigate(`/menu/${menu.id}`)}>Back</div>
         </div>
         <div className="flex px-3">
             <div className="card-sub m-auto mt-20   w-96 sm:w-1/2 md:w-1/2 pb-5 pt-20 px-5">
                 <div className="sub-img">
-                    <img className="w-40" src={item.img} alt={"image"} />
+                    <img className="w-50 " src={item.img} alt={"image"} />
                 </div>
                 {"id" in item && <div className="flex flex-col justify-between items-center">
                     <div>

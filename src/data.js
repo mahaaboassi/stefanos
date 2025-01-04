@@ -1,25 +1,116 @@
-import img from "./images/nn.png"
-import sandwich from "./images/vecteezy_delicious-fast-food-burger-hamburger-cheeseburger_47827678.png"
+// Soup
+import vegetable_soup from "./images/vegetable_soup.png"
+import mashroom from "./images/mashroom_soup.png"
+import sea from "./images/sea_soup.png"
+// Starter
+import  mix from "./images/Frame 19.png"
+import  dynamite from "./images/Frame 45.png"
+import  calamari from "./images/Frame 17.png"
+import  garlic from "./images/Frame 20.png"
+import  roll from "./images/Frame 18.png"
+import  kibbeh from "./images/Frame 7.png"
+import  haloumi from "./images/Frame 8.png"
+import  patato from "./images/Frame 13.png"
+import  falafel from "./images/Frame 15.png"
+import  hommus from "./images/Frame 14.png"
+import  moutable from "./images/Frame 16.png"
+import  manakish from "./images/Frame 21.png"
+import  fries from "./images/Frame 29.png"
+import  vine from "./images/Frame 9.png"
+// Salad
+import stefano from "././images/Frame 28.png"
+import caesar from "././images/Frame 27.png"
+import kale from "././images/Frame 23.png"
+import avacado from "././images/Frame 24.png"
+import bresaola from "././images/Frame 22.png"
+import fatosh from "././images/Frame 26.png"
+import caprese from "././images/Frame 30.png"
+import tabola from "././images/Frame 25.png"
+// Sandwich
+import shawarma from "././images/Frame 5.png"
+import steak from "././images/Frame 33.png"
+import escalope from "././images/Frame 34.png"
+import fahita from "././images/Frame 35.png"
+import sausage from "././images/Frame 36.png"
+import tawook from "././images/Frame 38.png"
+import beef from "././images/Frame 37.png"
+import chicken from "././images/Frame 32.png"
+// Pasta
+import seafood_pasta from "././images/Frame 40.png"
+import fusilli from "././images/Frame 41.png"
+import spaghetti from "././images/Frame 50.png" //?
+import fettuccine from "././images/Frame 43.png"
+import penne from "././images/Frame 42.png"
+import lasagna from "././images/Frame 56.png" 
+import ravioli from "././images/Frame 44.png"
+// Itaian Pizza 
+import margherita from "././images/Frame 46.png"
+import vegetarian from "././images/Frame 47.png"
+import arabica from "././images/Frame 48.png"
+import seafood_pizza from "././images/Frame 49.png"
+import chicken_pizza from "././images/Frame 26.png"
+import pepperoni from "././images/Frame 51.png"
+import turkey_pizza from "././images/Frame 52.png"
+// Main Course
+import mix_grill_seafood from "././images/Frame 53.png"
+import mix_grill_stefano from "././images/Frame 54.png"
+import arabic_mix_grill from "././images/Frame 55.png"
+import grilled_tenderloin from "././images/Frame 56.png"
+import grilled_lamb_chops from "././images/Frame 57.png"
+import chicken_cordon_bleu from "././images/Frame 22.png" //?
+import kibbeh_labaneh from "././images/Frame 59.png"
+import grilled_seabass from "././images/Frame 60.png"
+import grilled_salmon from "././images/Frame 58.png"
+import risotto_seafood from "./images/Frame 63.png"
+import risotto_mashroom from "./images/Frame 64.png"
+import risotto_chicken from "./images/Frame 61.png"
+import set_menu_2 from "./images/Frame 62.png"
+import set_menu_1 from "./images/vecteezy_delicious-pizza-with-mozzarella-and-cherry-tomatoes-isolated_49087875.png"
+// Desert
+import Knafi from "./images/Frame 67.png"
+import cake from "./images/Frame 68.png"
+import fruit from "./images/Frame 69.png"
+
+
+// Hot Drinks
+import turkish_caffee from "./images/Frame 71.png"
+import moroccan from "./images/Frame 72.png"
+import americano from "./images/Frame 73.png"
+import cappuccino from "./images/Frame 75.png"
+import late from "./images/Frame 76.png"
+
+// Cold Drinks
+import pinorange from "./images/pin.webp"
+import orangestraw from "./images/orange_s.webp"
+import strawbull from "./images/starb.webp"
+import lemonbull from "./images/lemon.webp"
+import bananaapple from "./images/banana.webp"
+import mint from "./images/mint.webp"
+import pepsi from "./images/Frame 70.png"
+
+
+import img from "./images/vecteezy_delicious-fast-food-burger-hamburger-cheeseburger_47827678.png"
 import pizza from "./images/vecteezy_delicious-pizza-with-mozzarella-and-cherry-tomatoes-isolated_49087875.png"
 import food from "./images/vecteezy_homemade-a-full-roasted-chicken-with-lemon-potatoes-and_46430071.png"
-export const data = [{
+export const data = [
+    {
     id : 1,
     nameEn: "Soup",
     nameAr : "الشوربة",
     svg :  <svg xmlns="http://www.w3.org/2000/svg" width="136" height="125" viewBox="0 0 136 125" fill="none">
-    <path d="M134.323 43.0811H1.58667C0.68 43.0811 0 43.8064 0 44.6678C0 82.2491 30.192 113.167 67.7733 113.303C105.355 113.393 135.91 82.8838 135.91 45.3478V44.6678C135.91 43.8064 135.184 43.0811 134.323 43.0811ZM67.9547 108.769C33.728 108.769 5.75733 81.5238 4.57867 47.6144H131.331C130.152 81.5238 102.182 108.769 67.9547 108.769Z" fill="#EC1F27"/>
-    <path d="M95.2906 111.398C94.0212 111.398 93.0239 112.395 93.0239 113.664V117.608C93.0239 119.014 91.8906 120.192 90.4399 120.192H45.4239C44.0186 120.192 42.8399 119.059 42.8399 117.608V113.664C42.8399 112.395 41.8426 111.398 40.5732 111.398C39.3039 111.398 38.3066 112.395 38.3066 113.664V117.608C38.3066 121.552 41.4799 124.726 45.4239 124.726H90.4399C94.3839 124.726 97.5572 121.552 97.5572 117.608V113.664C97.5572 112.44 96.5599 111.398 95.2906 111.398Z" fill="#EC1F27"/>
-    <path d="M13.6908 66.8812C14.5068 67.8332 15.9575 67.9238 16.9095 67.0625L23.0748 61.6225C23.9361 60.8518 25.2055 60.8518 26.0668 61.6225L33.9095 68.5585C34.7708 69.3292 36.0401 69.3292 36.9015 68.5585L44.7441 61.6225C45.6055 60.8518 46.8748 60.8518 47.7361 61.6225L55.5788 68.5585C56.4401 69.3292 57.7095 69.3292 58.5708 68.5585L66.4135 61.6225C67.2748 60.8518 68.5441 60.8518 69.4055 61.6225L77.2481 68.5585C78.1095 69.3292 79.3788 69.3292 80.2401 68.5585L88.0828 61.6225C88.9441 60.8518 90.2135 60.8518 91.0748 61.6225L98.9175 68.5585C99.7788 69.3292 101.049 69.3292 101.91 68.5585L109.753 61.6225C110.614 60.8518 111.883 60.8518 112.745 61.6225L118.91 67.0625C119.862 67.8785 121.267 67.7878 122.129 66.8812C122.945 65.9292 122.854 64.5238 121.947 63.6625L112.835 55.5932C111.974 54.8225 110.705 54.8225 109.843 55.5932L102.001 62.5292C101.139 63.2998 99.8695 63.2998 99.0081 62.5292L91.1655 55.5932C90.3041 54.8225 89.0348 54.8225 88.1735 55.5932L80.3308 62.5292C79.4695 63.2998 78.2001 63.2998 77.3388 62.5292L69.4961 55.5932C68.6348 54.8225 67.3655 54.8225 66.5041 55.5932L58.6615 62.5292C57.8001 63.2998 56.5308 63.2998 55.6695 62.5292L47.8268 55.5932C46.9655 54.8225 45.6961 54.8225 44.8348 55.5932L36.9921 62.5292C36.1308 63.2998 34.8615 63.2998 34.0001 62.5292L26.1575 55.5932C25.2961 54.8225 24.0268 54.8225 23.1655 55.5932L14.0081 63.6625C12.9655 64.5238 12.8748 65.9292 13.6908 66.8812Z" fill="#EC1F27"/>
-    <path d="M67.184 29.7531C66.7307 30.8411 67.1387 32.0651 68.1813 32.6544C69.36 33.2891 70.8107 32.7904 71.3547 31.5664C74.8 23.6784 72.0347 18.6918 69.8133 14.5664C67.728 10.7584 66.232 8.08375 68.9973 3.41438C69.5867 2.41704 69.3147 1.10239 68.408 0.422385C67.32 -0.348285 65.7787 -0.0309547 65.0987 1.10239C61.064 8.03836 63.6027 12.6624 65.8693 16.7424C67.9093 20.5958 69.768 23.9504 67.184 29.7531Z" fill="#EC1F27"/>
-    <path d="M44.2001 29.7531C43.7467 30.8411 44.2001 32.0651 45.1974 32.6091C46.3761 33.2438 47.8721 32.7451 48.3707 31.5211C51.0907 24.9931 48.7787 20.8225 46.8747 17.3771C45.1974 14.3851 44.0641 12.2545 46.0587 8.67314C46.6027 7.67584 46.2854 6.45185 45.3787 5.77185C44.2907 4.95585 42.7041 5.31854 42.0694 6.54254C38.9414 12.2998 41.1174 16.2891 42.9307 19.5531C44.6081 22.5905 46.0587 25.2651 44.2001 29.7531Z" fill="#EC1F27"/>
-    <path d="M89.9867 29.7531C89.5334 30.8411 89.9867 32.0651 90.984 32.6091C92.1627 33.2438 93.6587 32.7451 94.1574 31.5211C96.8774 24.9931 94.5654 20.8225 92.6614 17.3771C90.984 14.3851 89.8507 12.2545 91.8454 8.67314C92.3894 7.67584 92.072 6.45185 91.1654 5.77185C90.0774 4.95585 88.4907 5.31854 87.856 6.54254C84.728 12.2998 86.904 16.2891 88.7174 19.5531C90.3947 22.5905 91.8454 25.2651 89.9867 29.7531Z" fill="#EC1F27"/>
+    <path  d="M134.323 43.0811H1.58667C0.68 43.0811 0 43.8064 0 44.6678C0 82.2491 30.192 113.167 67.7733 113.303C105.355 113.393 135.91 82.8838 135.91 45.3478V44.6678C135.91 43.8064 135.184 43.0811 134.323 43.0811ZM67.9547 108.769C33.728 108.769 5.75733 81.5238 4.57867 47.6144H131.331C130.152 81.5238 102.182 108.769 67.9547 108.769Z" fill="#EC1F27"/>
+    <path  d="M95.2906 111.398C94.0212 111.398 93.0239 112.395 93.0239 113.664V117.608C93.0239 119.014 91.8906 120.192 90.4399 120.192H45.4239C44.0186 120.192 42.8399 119.059 42.8399 117.608V113.664C42.8399 112.395 41.8426 111.398 40.5732 111.398C39.3039 111.398 38.3066 112.395 38.3066 113.664V117.608C38.3066 121.552 41.4799 124.726 45.4239 124.726H90.4399C94.3839 124.726 97.5572 121.552 97.5572 117.608V113.664C97.5572 112.44 96.5599 111.398 95.2906 111.398Z" fill="#EC1F27"/>
+    <path  d="M13.6908 66.8812C14.5068 67.8332 15.9575 67.9238 16.9095 67.0625L23.0748 61.6225C23.9361 60.8518 25.2055 60.8518 26.0668 61.6225L33.9095 68.5585C34.7708 69.3292 36.0401 69.3292 36.9015 68.5585L44.7441 61.6225C45.6055 60.8518 46.8748 60.8518 47.7361 61.6225L55.5788 68.5585C56.4401 69.3292 57.7095 69.3292 58.5708 68.5585L66.4135 61.6225C67.2748 60.8518 68.5441 60.8518 69.4055 61.6225L77.2481 68.5585C78.1095 69.3292 79.3788 69.3292 80.2401 68.5585L88.0828 61.6225C88.9441 60.8518 90.2135 60.8518 91.0748 61.6225L98.9175 68.5585C99.7788 69.3292 101.049 69.3292 101.91 68.5585L109.753 61.6225C110.614 60.8518 111.883 60.8518 112.745 61.6225L118.91 67.0625C119.862 67.8785 121.267 67.7878 122.129 66.8812C122.945 65.9292 122.854 64.5238 121.947 63.6625L112.835 55.5932C111.974 54.8225 110.705 54.8225 109.843 55.5932L102.001 62.5292C101.139 63.2998 99.8695 63.2998 99.0081 62.5292L91.1655 55.5932C90.3041 54.8225 89.0348 54.8225 88.1735 55.5932L80.3308 62.5292C79.4695 63.2998 78.2001 63.2998 77.3388 62.5292L69.4961 55.5932C68.6348 54.8225 67.3655 54.8225 66.5041 55.5932L58.6615 62.5292C57.8001 63.2998 56.5308 63.2998 55.6695 62.5292L47.8268 55.5932C46.9655 54.8225 45.6961 54.8225 44.8348 55.5932L36.9921 62.5292C36.1308 63.2998 34.8615 63.2998 34.0001 62.5292L26.1575 55.5932C25.2961 54.8225 24.0268 54.8225 23.1655 55.5932L14.0081 63.6625C12.9655 64.5238 12.8748 65.9292 13.6908 66.8812Z" fill="#EC1F27"/>
+    <path  className="boil" d="M67.184 29.7531C66.7307 30.8411 67.1387 32.0651 68.1813 32.6544C69.36 33.2891 70.8107 32.7904 71.3547 31.5664C74.8 23.6784 72.0347 18.6918 69.8133 14.5664C67.728 10.7584 66.232 8.08375 68.9973 3.41438C69.5867 2.41704 69.3147 1.10239 68.408 0.422385C67.32 -0.348285 65.7787 -0.0309547 65.0987 1.10239C61.064 8.03836 63.6027 12.6624 65.8693 16.7424C67.9093 20.5958 69.768 23.9504 67.184 29.7531Z" fill="#EC1F27"/>
+    <path className="boil"  d="M44.2001 29.7531C43.7467 30.8411 44.2001 32.0651 45.1974 32.6091C46.3761 33.2438 47.8721 32.7451 48.3707 31.5211C51.0907 24.9931 48.7787 20.8225 46.8747 17.3771C45.1974 14.3851 44.0641 12.2545 46.0587 8.67314C46.6027 7.67584 46.2854 6.45185 45.3787 5.77185C44.2907 4.95585 42.7041 5.31854 42.0694 6.54254C38.9414 12.2998 41.1174 16.2891 42.9307 19.5531C44.6081 22.5905 46.0587 25.2651 44.2001 29.7531Z" fill="#EC1F27"/>
+    <path className="boil"  d="M89.9867 29.7531C89.5334 30.8411 89.9867 32.0651 90.984 32.6091C92.1627 33.2438 93.6587 32.7451 94.1574 31.5211C96.8774 24.9931 94.5654 20.8225 92.6614 17.3771C90.984 14.3851 89.8507 12.2545 91.8454 8.67314C92.3894 7.67584 92.072 6.45185 91.1654 5.77185C90.0774 4.95585 88.4907 5.31854 87.856 6.54254C84.728 12.2998 86.904 16.2891 88.7174 19.5531C90.3947 22.5905 91.8454 25.2651 89.9867 29.7531Z" fill="#EC1F27"/>
     <path d="M62.401 108.39C51.7017 107.371 40.1284 103.047 31.1796 96.7235C26.784 93.6176 19.7252 86.5545 16.5781 82.1133C10.0326 72.8761 5.91557 61.6044 4.87808 50.0809L4.65747 47.6304H67.8909H131.124L130.891 50.9197C130.197 60.7 126.381 71.5652 120.607 80.2013C110.728 94.9783 95.574 104.785 78.0117 107.766C74.8877 108.296 65.3998 108.676 62.401 108.39ZM41.0385 65.1722C44.0013 62.5331 45.6215 61.3351 46.2281 61.3351C46.8331 61.3351 48.4571 62.5299 51.3993 65.1397C53.7583 67.2323 56.049 69.0588 56.4897 69.1987C57.5939 69.5491 58.2395 69.1366 62.498 65.3595C67.3928 61.018 67.5837 60.8968 68.6391 61.4606C69.1018 61.7078 71.114 63.376 73.1107 65.1677C77.5449 69.1466 78.1446 69.552 79.189 69.2769C79.6397 69.1582 81.8454 67.4311 84.0906 65.4389C86.3357 63.4467 88.5113 61.6355 88.9252 61.414C89.8787 60.9037 90.1808 61.1003 95.0066 65.3717C99.3028 69.1744 99.8862 69.5477 100.986 69.1987C101.427 69.0588 103.717 67.2323 106.076 65.1397C109.027 62.5224 110.642 61.3351 111.251 61.3351C112.06 61.3351 112.799 61.9069 118.573 66.9959C119.489 67.8032 121.442 67.8964 122.147 67.1665C122.598 66.699 122.791 65.8297 122.707 64.6376C122.684 64.3075 120.345 61.9796 117.508 59.4643C113.589 55.9894 112.113 54.8912 111.362 54.8912C110.622 54.8912 109.22 55.8975 105.801 58.8846C103.286 61.081 100.912 62.8781 100.524 62.8781C99.7943 62.8781 99.2229 62.4322 93.8979 57.7071C91.55 55.6238 90.4605 54.8912 89.7101 54.8912C88.936 54.8912 87.6242 55.8354 84.1706 58.8782C81.3542 61.3597 79.3422 62.8677 78.8423 62.8716C78.3324 62.8756 76.5422 61.543 73.9412 59.223C69.4114 55.1827 68.6547 54.6952 67.4196 55.0226C66.9556 55.1456 64.6346 56.9634 62.2618 59.0622C59.6654 61.3586 57.6402 62.8781 57.1757 62.8781C56.7106 62.8781 54.6022 61.293 51.8694 58.8887C48.4835 55.9099 47.0844 54.8984 46.346 54.8953C45.6026 54.8923 44.2258 55.8826 40.8002 58.8846C37.8876 61.4371 35.9519 62.8752 35.4359 62.8702C34.9282 62.8652 32.9717 61.3832 30.1644 58.8768C26.6703 55.7573 25.4727 54.8912 24.6529 54.8912C23.8242 54.8912 22.5205 55.8599 18.4073 59.5321C13.6714 63.7603 13.2091 64.2814 13.2091 65.3923C13.2091 66.9121 14.6609 68.1825 15.9353 67.778C16.3845 67.6354 18.1604 66.2567 19.8816 64.7142C21.6029 63.1717 23.3897 61.7075 23.8524 61.4605C24.9046 60.8986 25.1412 61.046 29.7274 65.1199C34.1872 69.0815 34.7931 69.4868 35.8612 69.2237C36.3396 69.1058 38.6694 67.2827 41.0385 65.1722Z" fill="white"/>
     </svg>,
      content :[{
         nameEn : "Vegetable Soup",
         nameAr : "شوربة الخضروات",
         price : "40 AED",
-        img : img,
+        img : vegetable_soup,
         id : 1,
         desAr :"",
         descEn : ""
@@ -27,7 +118,7 @@ export const data = [{
         nameEn : "Mashroom Soup",
         nameAr : "شوربة الفطر",
         price : "40 AED",
-        img : img,
+        img : mashroom,
         id : 2,
         desAr :"",
         descEn : ""
@@ -35,7 +126,7 @@ export const data = [{
         nameEn : "Seafood Soup",
         nameAr : "شوربة الأطعمة البحرية ",
         price : "60 AED",
-        img : img,
+        img : sea,
         id : 3,
         desAr :"",
         descEn : ""
@@ -64,7 +155,7 @@ export const data = [{
         nameEn : "Mix Hot Maza",
         nameAr : "مقبلات ساخنة",
         price : "75 AED",
-        img :food,
+        img : mix,
         id : 1,
         desAr :"",
         descEn : ""
@@ -72,7 +163,7 @@ export const data = [{
         nameEn : "Dynamite Shrimp ",
         nameAr : "روبيان ديناميت",
         price : "75 AED",
-        img :food,
+        img : dynamite,
         id : 2,
         desAr :"",
         descEn : ""
@@ -80,7 +171,7 @@ export const data = [{
         nameEn : "Fried Calamari",
         nameAr : "كاليماري",
         price : "45 AED",
-        img :food,
+        img : calamari,
         id : 3,
         desAr :"",
         descEn : ""
@@ -88,7 +179,7 @@ export const data = [{
         nameEn : "Garlic Bread",
         nameAr : "خبز الثوم",
         price : "30 AED",
-        img :food,
+        img : garlic,
         id : 4,
         desAr :"",
         descEn : ""
@@ -96,7 +187,7 @@ export const data = [{
         nameEn : "Mosakhan Roll",
         nameAr : "مسخن رول",
         price : "30 AED",
-        img :food,
+        img : roll,
         id : 5,
         desAr :"",
         descEn : ""
@@ -104,7 +195,7 @@ export const data = [{
         nameEn : "Fried Kibbeh",
         nameAr : "كبة مقلية",
         price : "39 AED",
-        img :food,
+        img : kibbeh,
         id : 6,
         desAr :"",
         descEn : ""
@@ -112,7 +203,7 @@ export const data = [{
         nameEn : "Grilled Cheese Haloumi",
         nameAr : "حلوم مشوي",
         price : "35 AED",
-        img :food,
+        img : haloumi,
         id : 7,
         desAr :"",
         descEn : ""
@@ -120,7 +211,7 @@ export const data = [{
         nameEn : "Spicy Patato",
         nameAr : "بطاطا حرة",
         price : "30 AED",
-        img : food,
+        img : patato,
         id : 8,
         desAr :"",
         descEn : ""
@@ -128,7 +219,7 @@ export const data = [{
         nameEn : "Falafel",
         nameAr : "فلافل",
         price : "35 AED",
-        img : food,
+        img : falafel,
         id : 9,
         desAr :"",
         descEn : ""
@@ -136,15 +227,15 @@ export const data = [{
         nameEn : "Vine leaves",
         nameAr : "ورق عنب",
         price : "35 AED",
-        img : food,
+        img : vine,
         id : 10,
         desAr :"",
         descEn : ""
     },{
-        nameEn : "Hommus ",
+        nameEn : "Hommus",
         nameAr : "حمص",
         price : "30 AED",
-        img : food,
+        img : hommus,
         id : 11,
         desAr :"",
         descEn : ""
@@ -152,7 +243,7 @@ export const data = [{
         nameEn : "Moutable",
         nameAr : "متبل",
         price : "30 AED",
-        img :food,
+        img : moutable,
         id : 12,
         desAr :"",
         descEn : ""
@@ -160,7 +251,7 @@ export const data = [{
         nameEn : "Manakish Zatar / Cheese",
         nameAr : "منقوشة زعتر / جبنة",
         price : "30 AED",
-        img : food,
+        img : manakish,
         id : 13,
         desAr :"",
         descEn : ""
@@ -168,7 +259,7 @@ export const data = [{
         nameEn : "french fries",
         nameAr : "بطاطا مقلية",
         price : "30 AED",
-        img : food,
+        img : fries,
         id : 14,
         desAr :"",
         descEn : ""
@@ -214,14 +305,70 @@ export const data = [{
     </defs>
     </svg>,
     content :[{
-        nameEn : "Vegetable Soup",
-        nameAr : "شوربة الخضروات",
-        price : "40 AED",
-        img : img,
+        nameEn : "Stefano's Salad",
+        nameAr : "سلطة الستيفانوس",
+        price : "55 AED",
+        img : stefano,
         id : 1,
         desAr :"",
         descEn : ""
-    },]
+    },{
+        nameEn : "Caesar Salad",
+        nameAr : "سلطة السيزر",
+        price : "45 AED",
+        img : caesar,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Kale Artichoke Salad",
+        nameAr : "سلطة الخرشوف",
+        price : "45 AED",
+        img : kale,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Avacado Corn Salad",
+        nameAr : "سلطة الذرة و الافوكادو",
+        price : "45 AED",
+        img : avacado,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Kale Bresaola Salad",
+        nameAr : "سلطة البريزاولا",
+        price : "55 AED",
+        img : bresaola,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Arabic Salad (Tabouleh)",
+        nameAr : "سلطة العربية ( تبولة ) ",
+        price : "35 AED",
+        img : tabola,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Arabic Salad (Fattoush)",
+        nameAr : "سلطة العربية ( فتوش ) ",
+        price : "35 AED",
+        img : fatosh,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },,{
+        nameEn : "Caprese",
+        nameAr : "كابريزي",
+        price : "55 AED",
+        img : caprese,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    }]
 },{
     id : 4,
     nameEn: "Sandwiches",
@@ -241,10 +388,66 @@ export const data = [{
     <path d="M13.7139 97.7056C11.8395 97.1101 10.9767 96.5581 9.30072 94.8822C7.57425 93.1557 7.08731 92.3774 6.45733 90.3378C5.5464 87.3885 5.46015 84.0966 6.26376 82.9493C7.63293 80.9945 6.62216 81.0554 37.7196 81.0554H66.5107L72.6802 86.1266C76.9974 89.6753 79.1222 91.1962 79.7573 91.1921C80.4262 91.1881 82.0497 89.8561 85.929 86.1294L91.1931 81.0724L106.804 81.0655C121.629 81.0585 122.473 81.0938 123.571 81.7636C125.3 82.8179 125.625 83.7033 125.395 86.7439C125.024 91.6387 122.579 95.3737 118.516 97.2501L116.243 98.3L66.1433 98.373C16.6269 98.4451 16.0167 98.4372 13.7139 97.7056Z" fill="white"/>
     </svg>,
     content :[{
-        nameEn : "Vegetable Soup",
-        nameAr : "شوربة الخضروات",
-        price : "40 AED",
-        img : img,
+        nameEn : "Chicken Shawarma",
+        nameAr : "شاورما دجاج",
+        price : "38 AED",
+        img : shawarma,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Steak Sandwich",
+        nameAr : "ساندويش ستيك",
+        price : "55 AED",
+        img : steak,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Chicken Escalope",
+        nameAr : "اسكالوب دجاج",
+        price : "45 AED",
+        img : escalope,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Fahita Sandwich",
+        nameAr : "ساندويش فاهيتا",
+        price : "45 AED",
+        img : fahita,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Sausage Sandwich",
+        nameAr : "ساندويش سجق",
+        price : "45 AED",
+        img : sausage,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Tawook Sandwich",
+        nameAr : "ساندويش طاووق",
+        price : "45 AED",
+        img : tawook,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Beef Burger",
+        nameAr : "برجر لحم",
+        price : "65 AED",
+        img : beef,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Chicken Burger",
+        nameAr : "برجر دجاج",
+        price : "50 AED",
+        img : chicken,
         id : 1,
         desAr :"",
         descEn : ""
@@ -271,10 +474,58 @@ export const data = [{
     <path d="M55.488 38.3983C55.5504 38.0354 55.6505 37.1406 55.7103 36.4099L55.8191 35.0812L58.9114 34.2507C62.2582 33.352 62.6763 33.1229 63.0114 32.0043C63.2815 31.103 62.8068 30.1247 61.8798 29.6718L61.2136 29.3464L58.361 30.0831C56.7921 30.4882 55.3897 30.8326 55.2445 30.8483C55.0517 30.8693 54.8703 30.4348 54.5711 29.236C54.3459 28.3335 54.1973 27.502 54.241 27.3881C54.2847 27.2743 55.4982 26.8724 56.9377 26.4951C60.0976 25.6668 60.3897 25.5306 60.7821 24.7037C61.3349 23.5388 60.8906 22.3869 59.693 21.88C59.1985 21.6707 58.9437 21.6838 57.6697 21.9839C56.8681 22.1727 55.8361 22.442 55.3765 22.5823C54.9168 22.7226 54.5408 22.7754 54.5408 22.6996C54.5408 22.5065 55.3076 20.51 55.8261 19.353L56.2598 18.3854L59.1706 17.6132C62.4138 16.7527 63.0176 16.7418 64.3446 17.5194C65.2508 18.0505 65.9042 19.1105 66.3187 20.7222C66.4868 21.3757 66.713 22.0759 66.8212 22.2782C67.1183 22.8334 67.8252 23.2237 68.5336 23.2237C68.8823 23.2237 80.2503 20.2547 93.796 16.626C107.342 12.9973 118.663 10.0283 118.955 10.0283C120.013 10.0283 120.693 10.8238 120.693 12.0602C120.693 13.3779 120.748 13.3567 109.591 16.3465C69.8616 26.9926 69.6534 27.0499 69.2222 27.455C68.5899 28.049 68.5206 28.8222 68.9472 30.5233C69.3721 32.2172 69.4028 32.7784 69.1167 33.6217C68.4769 35.5079 67.9362 35.7823 61.3674 37.5539C58.3001 38.3812 55.6968 39.0581 55.5824 39.0581C55.4392 39.0581 55.4098 38.8527 55.488 38.3983Z" fill="white"/>
     </svg>,
     content :[{
-        nameEn : "Vegetable Soup",
-        nameAr : "شوربة الخضروات",
-        price : "40 AED",
-        img : img,
+        nameEn : "Stefano's Seafood Pasta",
+        nameAr : "باستا ستيفانو للمأكولات البحرية",
+        price : "85 AED",
+        img : seafood_pasta,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Fusilli Pesto",
+        nameAr : "فوسيلي بالريحان",
+        price : "60 AED",
+        img : fusilli,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Spaghetti Carbonara",
+        nameAr : "كاربونارا",
+        price : "60 AED",
+        img : spaghetti,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Fettuccine Alfredo",
+        nameAr : "فيوتشيني الفريدو",
+        price : "60 AED",
+        img : fettuccine,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Penne ( Arrabiata / Pomodoro )",
+        nameAr : "بني ( أرابياتا / بومودورو )",
+        price : "50 AED",
+        img : penne,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Lasagna Bolognese",
+        nameAr : "لازانيا بوبوليز",
+        price : "69 AED",
+        img : lasagna,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Ravioli ( Beef, Mushroom, Spinach )",
+        nameAr : "رافيولي باستا ( لحم ,فطر ,سبانخ )",
+        price : "69 AED",
+        img : ravioli,
         id : 1,
         desAr :"",
         descEn : ""
@@ -304,10 +555,58 @@ export const data = [{
     <path d="M49.263 20.3145C48.2304 19.0704 49.6545 16.9671 50.9708 17.7922C52.2663 18.6043 51.8003 20.8391 50.3355 20.8391C49.9851 20.8391 49.5024 20.6031 49.263 20.3145Z" fill="white"/>
     </svg>,
     content :[{
-        nameEn : "Vegetable Soup",
-        nameAr : "شوربة الخضروات",
-        price : "40 AED",
-        img : pizza,
+        nameEn : "Margherita",
+        nameAr : "مارغاريتا",
+        price : "49 AED",
+        img : margherita,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Vegetarian",
+        nameAr : "بيتزا خضار",
+        price : "55 AED",
+        img : vegetarian,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Arabica",
+        nameAr : "أربيكا",
+        price : "65 AED",
+        img : arabica,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Seafood Pizza",
+        nameAr : "بيتزا المأكولات البحرية",
+        price : "75 AED",
+        img : seafood_pizza,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Chicken Pizza",
+        nameAr : "بيتزا دجاج",
+        price : "60 AED",
+        img : chicken_pizza,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Pepperoni",
+        nameAr : "بيبيروني",
+        price : "60 AED",
+        img : pepperoni,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Turkey Pizza",
+        nameAr : "بيتزا تركية",
+        price : "60 AED",
+        img : turkey_pizza,
         id : 1,
         desAr :"",
         descEn : ""
@@ -322,10 +621,114 @@ export const data = [{
     <path d="M64.5782 17.0705C63.0497 16.4045 61.2405 14.2301 60.7743 12.4986C59.7547 8.71239 63.1866 4.52295 67.3077 4.52295C71.1384 4.52295 74.6643 8.43654 74.0796 12.0395C73.4152 16.1338 68.4555 18.76 64.5782 17.0705Z" fill="white"/>
     </svg>,
     content :[{
-        nameEn : "Vegetable Soup",
-        nameAr : "شوربة الخضروات",
-        price : "40 AED",
-        img : food,
+        nameEn : "Mix Grill Seafood",
+        nameAr : "مشكل المأكولات البحرية",
+        price : "180 AED",
+        img : mix_grill_seafood,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Mix Grill Stefano's",
+        nameAr : "مشكل ستيفانو للمأكولات المشوية",
+        price : "160 AED",
+        img : mix_grill_stefano,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Arabic Mix Grill",
+        nameAr : "مشكل مشاوي",
+        price : "85 AED",
+        img : arabic_mix_grill,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Grilled Tenderloin",
+        nameAr : "فيليه بقري مشوي",
+        price : "120 AED",
+        img : grilled_tenderloin,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Grilled Lamb Chops",
+        nameAr : "أضلاع الغنم المشوي",
+        price : "120 AED",
+        img : grilled_lamb_chops,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Chicken Cordon Bleu",
+        nameAr : "دجاج كوردون بلو",
+        price : "90 AED",
+        img : chicken_cordon_bleu,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Kibbeh Labaneh",
+        nameAr : "كبة لبنية",
+        price : "60 AED",
+        img : kibbeh_labaneh,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Grilled Seabass",
+        nameAr : "سبياش مشوي",
+        price : "95 AED",
+        img : grilled_seabass,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Grilled Salmon",
+        nameAr : "سالمون مشوي",
+        price : "95 AED",
+        img : grilled_salmon,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Risotto ( Seafood )",
+        nameAr : "ريزوتو مأكولات بحرية",
+        price : "75 AED",
+        img : risotto_seafood,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Risotto ( Mashroom )",
+        nameAr : "ريزوتو فطر",
+        price : "60 AED",
+        img : risotto_mashroom,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Risotto ( Chicken )",
+        nameAr : "ريزوتو دجاج",
+        price : "60 AED",
+        img : risotto_chicken,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Set Menu Per person (2min Person)",
+        nameAr : "قائمة طعام مميزة (شخصين حد ادنى)",
+        price : "125 AED",
+        img : set_menu_1,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Set Menu Per person (2min Person)",
+        nameAr : "قائمة طعام مميزة (شخصين حد ادنى)",
+        price : "165 AED",
+        img : set_menu_2,
         id : 1,
         desAr :"",
         descEn : ""
@@ -372,18 +775,42 @@ export const data = [{
     <path d="M34.7689 15.6307C33.9851 15.3099 34.084 14.127 34.9098 13.9456C35.2062 13.8805 35.6702 14.089 35.8099 14.3501C35.9299 14.5743 35.9299 15.0435 35.8099 15.2677C35.7103 15.4538 35.2643 15.7203 35.0684 15.7108C35.0035 15.7078 34.8687 15.6716 34.7689 15.6307Z" fill="white"/>
     </svg>,
     content :[{
-        nameEn : "Vegetable Soup",
-        nameAr : "شوربة الخضروات",
-        price : "40 AED",
+        nameEn : "cake",
+        nameAr : "كيك",
+        price : "35 AED",
+        img : cake,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Fruit Salad",
+        nameAr : "سلطة فواكه",
+        price : "35 AED",
+        img : fruit,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Cream Caramel",
+        nameAr : "كريم كراميل",
+        price : "35 AED",
         img : img,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Konafa",
+        nameAr : "كنافة",
+        price : "40 AED",
+        img : Knafi,
         id : 1,
         desAr :"",
         descEn : ""
     },]
 },{
     id : 9,
-    nameEn : "Drinks",
-    nameAr :  "مشروبات",
+    nameEn : "Cold Drinks",
+    nameAr :  "مشروبات باردة",
     svg : <svg xmlns="http://www.w3.org/2000/svg" width="140" height="135" viewBox="0 0 140 135" fill="none">
     <path d="M9.22722 110.528C7.32722 110.003 5.35222 110.278 3.65222 111.253C1.95222 112.228 0.752222 113.803 0.252222 115.703C-0.797738 119.603 1.52722 123.628 5.42722 124.678L40.8772 134.178C42.7522 134.678 44.7522 134.428 46.4272 133.453C48.1272 132.478 49.3272 130.903 49.8522 129.003C50.9022 125.103 48.5772 121.078 44.6772 120.028L38.6022 118.403L38.8772 111.353C45.1522 111.003 51.3522 109.078 56.3522 105.578C62.7522 101.103 66.6522 93.7026 67.2022 87.5276L67.8522 80.1776L69.4022 62.6026C69.7272 59.0276 67.4272 55.7776 63.9772 54.8526L25.1272 44.4526C21.6772 43.5276 18.0522 45.2026 16.5522 48.4526L6.02722 71.1276C2.97722 77.6776 3.10222 85.1776 6.37722 92.1776C8.95222 97.7026 13.4022 102.378 18.6772 105.803L15.3522 112.153L9.27722 110.528H9.22722ZM45.0272 127.703C44.8772 128.303 44.4772 128.803 43.9522 129.128C43.4272 129.453 42.7772 129.528 42.1772 129.353L6.72722 119.853C5.47722 119.528 4.75222 118.228 5.07722 117.003C5.22722 116.403 5.62722 115.903 6.15222 115.578C6.50222 115.378 6.90222 115.278 7.30222 115.278C7.50222 115.278 7.70222 115.303 7.92722 115.353L43.3772 124.853C44.6272 125.178 45.3522 126.478 45.0272 127.703ZM62.2022 87.0526C62.0022 89.2526 61.4022 91.1276 60.6522 92.8526C56.2772 94.3526 52.4272 94.4026 49.2522 92.8526C47.9022 92.2026 46.7022 91.1776 45.5522 89.9526C50.5272 86.3526 56.1772 82.5526 62.6272 82.3276L62.2022 87.0526ZM21.0772 50.5526C21.4772 49.7026 22.3272 49.2026 23.2272 49.2026C23.4272 49.2026 23.6272 49.2026 23.8272 49.2776L62.6772 59.6776C63.7772 59.9776 64.5272 61.0276 64.4272 62.1776L63.0772 77.3776C55.2522 77.4276 48.6022 81.6026 42.6522 85.9276C41.6022 84.0276 40.6272 81.8776 39.8272 79.3026C34.3022 61.3526 24.9272 57.5526 17.7772 57.6526L21.0772 50.5526ZM10.9022 90.0526C9.02722 86.0526 7.45222 79.8776 10.5522 73.2026L15.3022 62.9776C26.3772 61.0276 32.1772 71.4026 35.0522 80.7526C37.1022 87.4026 40.7772 94.3276 47.0772 97.3776C49.3772 98.5026 51.8772 99.0526 54.5522 99.0526C55.2022 99.0526 55.9272 98.9026 56.6022 98.8276C55.5772 99.8526 54.5022 100.753 53.5022 101.453C46.8272 106.128 37.6772 107.653 29.6022 105.503C21.5272 103.328 14.3772 97.4026 10.9272 90.0526H10.9022ZM23.0022 108.278C24.7272 109.078 26.4522 109.853 28.2772 110.353C30.1022 110.853 31.9772 111.103 33.8772 111.278L33.6522 117.053L20.2772 113.478L23.0022 108.278Z" fill="#EC1F27"/>
     <path d="M133.652 92.1776C136.927 85.1522 137.052 77.6772 134.002 71.1022L123.477 48.4272C121.952 45.1772 118.352 43.5022 114.902 44.4272L76.0522 54.8272C72.6022 55.7522 70.3022 59.0272 70.6272 62.5772L72.8272 87.4776C73.4022 93.8276 77.2022 101.003 83.6772 105.528C88.6772 109.028 94.8522 110.953 101.127 111.303L101.402 118.353L95.3272 119.978C91.4272 121.028 89.1022 125.053 90.1522 128.953C90.6522 130.853 91.8772 132.428 93.5522 133.403C95.3022 134.403 97.2772 134.628 99.1272 134.128L134.577 124.628C138.477 123.578 140.802 119.553 139.752 115.653C139.252 113.753 138.027 112.178 136.352 111.203C134.652 110.228 132.677 109.953 130.777 110.478L124.702 112.103L121.377 105.753C126.627 102.328 131.077 97.6526 133.677 92.1276L133.652 92.1776ZM77.3522 59.6772L116.202 49.2772C116.402 49.2272 116.602 49.2022 116.802 49.2022C117.702 49.2022 118.577 49.7272 118.952 50.5522L122.252 57.6522C115.102 57.5522 105.727 61.3522 100.202 79.3022C99.4022 81.8772 98.4272 84.0272 97.3772 85.9272C91.3522 81.5522 84.7272 77.4272 76.9522 77.3772L75.6022 62.1772C75.5022 61.0522 76.2522 59.9772 77.3522 59.6772ZM77.8272 87.0772L77.4022 82.3522C83.8772 82.5772 89.6022 86.4522 94.4772 90.0026C93.3272 91.2026 92.1272 92.2526 90.7772 92.9026C87.6022 94.4276 83.7522 94.3776 79.3772 92.9026C78.6272 91.1776 78.0272 89.3026 77.8272 87.1022V87.0772ZM83.4522 98.8526C84.1272 98.9276 84.8272 99.0776 85.5022 99.0776C88.1522 99.0776 90.6522 98.5276 92.9772 97.4026C99.2522 94.3526 102.952 87.4526 105.002 80.7772C107.877 71.4272 113.652 61.0522 124.752 63.0022L129.502 73.2272C132.602 79.8772 131.027 86.0522 129.152 90.0776C125.702 97.4526 118.552 103.378 110.477 105.528C102.402 107.678 93.2522 106.128 86.5772 101.478C85.5772 100.778 84.5022 99.8776 83.4772 98.8526H83.4522ZM132.077 115.378C132.702 115.228 133.302 115.303 133.852 115.603C134.402 115.903 134.777 116.428 134.927 117.028C135.252 118.278 134.527 119.553 133.277 119.878L97.8272 129.378C97.2272 129.528 96.6022 129.453 96.0522 129.153C95.5272 128.853 95.1272 128.328 94.9772 127.728C94.6522 126.478 95.3772 125.203 96.6272 124.878L132.077 115.378ZM119.752 113.503L106.377 117.078L106.152 111.303C108.052 111.128 109.927 110.853 111.752 110.378C113.577 109.878 115.302 109.103 117.027 108.303L119.752 113.503Z" fill="#EC1F27"/>
@@ -407,10 +834,199 @@ export const data = [{
     <path d="M24.461 124.45C5.32271 119.306 4.70181 119.073 5.25597 117.261C5.62683 116.049 6.14592 115.587 7.13957 115.587C7.64729 115.587 16.0816 117.724 25.8824 120.335C44.2181 125.22 44.9728 125.492 44.9728 127.219C44.9728 127.818 43.3715 129.42 42.8363 129.356C42.7135 129.341 34.4446 127.134 24.461 124.45Z" fill="white"/>
     </svg>,
     content :[{
-        nameEn : "Vegetable Soup",
-        nameAr : "شوربة الخضروات",
-        price : "40 AED",
+        nameEn : "Pepsi, 7Up, Mirinda, Mountain Dew",
+        nameAr : "بيبسي, سفن اب, ميرندا, ماونتن ديو",
+        price : "18 AED",
+        img : pepsi,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Hildon Still Small/Large",
+        nameAr : "هيليدون معدنية صغيرة / كبيرة",
+        price : "20 / 25 AED",
         img : img,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Sparkling Small/Large",
+        nameAr : "فوارة صغيرة / كبيرة",
+        price : "15 / 22 AED",
+        img : img,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Non-Alcoholic Beer",
+        nameAr : "بيرة بدون كحول",
+        price : "19 AED",
+        img : img,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Iced Tea / Iced Coffee",
+        nameAr : "شاي مثلجة / قهوة مثلجة",
+        price : "19 AED",
+        img : img,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Engergy Drink",
+        nameAr : "مشروب الطاقة",
+        price : "28 AED",
+        img : img,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Frishly Sequeezed Fruit Juice",
+        nameAr : "عصير فواكه طازج",
+        price : "28 AED",
+        img : img,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Orangestraw",
+        nameAr : "اورانجسترو",
+        price : "39 AED",
+        img : orangestraw,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Strawbull",
+        nameAr :  "ستروبول",
+        price : "39 AED",
+        img : strawbull,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Lemonbull",
+        nameAr : "ليمونبول",
+        price : "39 AED",
+        img : lemonbull,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Bananaapple",
+        nameAr : "بنانا ابل",
+        price : "39 AED",
+        img : bananaapple,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Lemonmint",
+        nameAr : "ليمون مينت",
+        price : "39 AED",
+        img : mint,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Pinorange",
+        nameAr : "بينورانج",
+        price : "39 AED",
+        img : pinorange,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },]
+},{
+    id : 10,
+    nameEn : "Hot Drinks",
+    nameAr :  "مشروبات ساخنة",
+    svg : <svg xmlns="http://www.w3.org/2000/svg" width="115" height="125" viewBox="0 0 115 125" fill="none">
+    <path d="M40.8954 0.89082C39.0053 3.72217 38.4796 6.66495 38.718 9.34165C38.9564 12.0185 39.8639 14.4516 40.6878 16.7272C41.5117 19.0028 42.2449 21.1216 42.4187 23.091C42.5925 25.0603 42.301 26.8639 40.8954 28.965C40.277 29.8851 40.5225 31.1324 41.4436 31.7494C42.367 32.3617 43.6123 32.1097 44.224 31.1856C46.118 28.3545 46.6533 25.4123 46.417 22.7348C46.1807 20.0573 45.2713 17.6408 44.4472 15.3647C43.6231 13.0886 42.8761 10.9552 42.7007 8.98545C42.5252 7.01575 42.822 5.22345 44.224 3.12303C44.8397 2.2037 44.5944 0.95947 43.6757 0.34265C43.3484 0.12159 42.9628 0.0012 42.5009 0C41.8109 0.04819 41.2418 0.37038 40.8954 0.89082ZM61.1909 6.67345C60.7162 8.68735 61.1025 11.5044 61.4233 14.0173C61.7442 16.5304 61.9997 18.7525 61.4546 21.0625C61.2002 22.1407 61.8683 23.2207 62.9466 23.4746C64.026 23.7294 65.1069 23.0585 65.3589 21.9788C66.099 18.842 65.7268 16.0297 65.4059 13.5163C65.085 11.0029 64.8151 8.79265 65.3589 6.48285C65.6134 5.40465 64.9452 4.32445 63.6603 4.04032C62.4537 4.02225 61.6656 4.65955 61.1909 6.67345ZM51.9229 20.7687C52.7296 24.0272 53.3568 26.6199 52.0404 29.4976C51.5841 30.5033 52.0266 31.6887 53.0312 32.1488C54.04 32.6132 55.234 32.173 55.6941 31.1581C57.6085 26.973 56.6223 23.0489 55.8154 19.7896C55.0085 16.5304 54.3809 13.9336 55.6941 11.0567C56.1478 10.0521 55.7061 8.86975 54.7033 8.40965C54.4466 8.29165 54.1676 8.22835 53.8124 8.22775C53.0006 8.27585 52.3471 8.72645 51.2387 11.1558C50.1302 13.5855 51.1164 17.5101 51.9229 20.7687ZM28.0781 40.0984C21.0362 40.0984 15.1824 45.3495 14.1957 52.1283H12.034C10.9252 52.1305 10.0287 53.0325 10.033 54.1413V81.9688C10.033 85.5608 10.8906 91.9831 17.1406 97.7152C20.139 100.465 23.96 102.631 28.2818 104.259H6.0229C2.7252 104.259 0 106.984 0 110.282C0 113.579 2.7252 116.293 6.0229 116.293H14.1957L21.6401 123.722C22.0154 124.099 22.5254 124.312 23.0577 124.312H85.2211C85.7507 124.309 86.2575 124.096 86.6309 123.722L94.071 116.293H102.26C105.558 116.293 108.267 113.579 108.267 110.282C108.267 106.984 105.558 104.259 102.26 104.259H74.9767C77.8743 103.168 80.5495 101.837 82.8989 100.249H90.802H90.817C97.654 100.156 103.509 95.7463 107.633 90.2121C111.756 84.6784 114.311 77.952 114.294 72.1864C114.26 60.9467 104.007 52.6752 91.643 52.1754C91.086 52.0844 90.512 52.1273 89.928 52.1273C88.9438 45.3486 83.1034 40.0971 76.0615 40.0971C73.2392 40.0971 70.4953 40.9714 68.3939 42.7406C66.208 41.1218 63.3188 40.0971 60.1506 40.0971C57.1335 40.0971 54.3201 41.0689 52.0835 42.7406C49.8429 41.0726 47.0223 40.0971 43.989 40.0971C41.1645 40.0971 38.4186 40.9762 36.3175 42.7482C34.1338 41.1248 31.2509 40.0984 28.0781 40.0984ZM38.0836 46.6225C39.3834 45.0066 41.4863 44.1082 43.989 44.1082C46.5952 44.1082 48.9202 45.1154 50.6482 46.6615C51.5431 47.4491 52.8149 47.4633 53.6067 46.6856C55.2117 45.1107 57.5415 44.109 60.1505 44.109C62.9325 44.109 65.4913 45.3071 67.1289 46.7874C68.227 47.5568 69.4826 47.431 70.1834 46.5798C71.4843 44.9873 73.5767 44.1087 76.0614 44.1087C80.9308 44.1087 84.9536 47.5415 85.8789 52.1287H42.3011C41.1937 52.1331 40.2995 53.0343 40.2038 53.588L40.1079 70.1739C40.1079 71.3194 39.2405 72.1868 38.0951 72.1868C36.9496 72.1868 36.0979 71.3194 36.0979 70.1739V64.1628C36.0939 63.0551 35.1928 62.1612 34.085 62.1656C32.9831 62.1694 32.0916 63.0608 32.0879 64.1628V70.1739V74.1839C32.0879 75.3294 31.2204 76.1967 30.075 76.1967C28.9295 76.1967 28.0778 75.3294 28.0778 74.1839C28.1043 67.5157 28.0282 60.7827 28.1052 54.1417C28.1092 53.0343 27.2154 52.133 26.108 52.1287H18.2447C19.1728 47.5415 23.2085 44.1087 28.0779 44.1087C30.8837 44.1087 33.4542 45.3243 35.0486 46.8324C36.1177 47.6223 37.3861 47.4878 38.0836 46.6225ZM14.0312 56.1424H24.0642V74.1836C24.0642 77.4813 26.7776 80.2066 30.0753 80.2066C32.8287 80.2066 35.1608 78.297 35.8632 75.7501C36.5557 76.0326 37.3068 76.1964 38.0954 76.1964C41.393 76.1964 44.1065 73.4712 44.1065 70.1736V56.1423H89.219V81.9688C89.219 85.0183 88.723 89.8916 83.4041 94.7702C76.8915 100.743 64.2766 104.082 51.6253 104.082C38.9741 104.082 26.3592 100.743 19.8466 94.7702C14.5269 89.8913 14.0312 85.0185 14.0312 81.9688V56.1424ZM93.229 56.3032C103.03 57.3508 110.255 63.8739 110.28 72.1868C110.294 76.7006 108.065 82.927 104.422 87.8157C100.778 92.7044 95.876 96.1813 90.774 96.2503H87.5394C88.8106 94.8733 89.808 93.4832 90.578 92.1077C95.091 91.5038 100.227 88.3669 102.659 84.7495C105.339 80.7643 106.99 76.0953 106.979 72.1983C106.967 68.3013 104.998 65.086 102.068 63.0975C99.624 61.4386 96.554 60.5544 93.229 60.2779V56.3032ZM93.229 64.2959C95.873 64.5664 98.18 65.304 99.816 66.4145C101.861 67.8022 102.961 69.5696 102.969 72.2141C102.977 74.8586 101.589 79.1529 99.327 82.5173C97.808 84.7764 95.018 86.5391 92.493 87.479C93.07 85.3389 93.229 83.4184 93.229 81.969V64.2959ZM28.0781 92.2408C26.9708 92.2364 26.0696 93.1308 26.0653 94.2383C26.0613 95.3513 26.9647 96.2553 28.0781 96.2503H76.1946C77.302 96.2463 78.1962 95.3453 78.1918 94.2383C78.1878 93.1368 77.2959 92.2451 76.1946 92.2408H28.0781ZM6.0229 108.269H102.26C103.405 108.269 104.257 109.136 104.257 110.282C104.257 111.427 103.405 112.279 102.26 112.279H6.0229C4.8775 112.279 4.0101 111.427 4.0101 110.282C4.0101 109.136 4.8775 108.269 6.0229 108.269ZM19.8779 116.293H88.4049L84.3792 120.303H23.8879L19.8779 116.293Z" fill="#EC1F27"/>
+    <path  d="M43.0652 103.428C28.8986 101.474 19.4512 96.4937 15.783 89.0453L14.5665 86.5751L14.4608 71.4097L14.355 56.2441H19.0895H23.824V65.6758C23.824 76.4902 23.9943 77.3564 26.474 79.1527C27.6496 80.0043 28.3001 80.2048 29.8867 80.2048C30.9648 80.2048 32.3095 79.9656 32.8748 79.6733C34.0156 79.0833 35.8047 77.118 35.8037 76.4558C35.8032 76.1656 36.4686 76.0672 37.8912 76.1472C40.2964 76.2823 41.9026 75.4518 43.3288 73.3355C44.1249 72.1542 44.1543 71.8278 44.1543 64.1774V56.2441H66.6628H89.1712L89.1692 69.4044C89.1682 76.6425 89.0096 83.5263 88.8171 84.7018C87.3331 93.7638 78.5052 100.113 63.4905 102.918C59.7835 103.611 46.7484 103.936 43.0652 103.428ZM77.4732 95.9764C78.4314 95.3053 78.5563 93.6024 77.7095 92.7556C77.202 92.248 74.3825 92.1851 52.1411 92.1851C24.6483 92.1851 26.0023 92.072 26.0023 94.3687C26.0023 96.6144 25.1263 96.5416 52.1411 96.5416C73.7508 96.5416 76.7622 96.4744 77.4732 95.9764Z" fill="white"/>
+    <path  d="M28.5563 75.146C28.3216 74.7075 28.1805 70.4213 28.1805 63.7308C28.1805 50.8346 28.6884 51.8876 22.4677 51.8876H18.3687L18.9293 50.5457C19.8203 48.4134 21.1832 46.8765 23.2098 45.7191C26.7011 43.7252 30.5482 43.9276 33.9761 46.2855C34.972 46.9706 36.102 47.5311 36.4873 47.5311C36.8726 47.5311 37.8661 46.9644 38.6951 46.2718C41.8919 43.601 46.2834 43.652 50.0249 46.4036C50.8682 47.0237 51.8123 47.5311 52.123 47.5311C52.4338 47.5311 53.4616 46.9811 54.4072 46.3088C58.3334 43.5174 62.9682 43.7186 66.9839 46.8549C68.2246 47.8239 69.0754 47.6977 70.7044 46.3034C74.257 43.2625 79.5654 43.7381 83.0503 47.4096C84.3405 48.7689 85.5408 50.7434 85.5408 51.5065C85.5408 51.7683 78.6946 51.8876 63.6577 51.8876C45.0334 51.8876 41.6615 51.9668 41.0157 52.419C40.2939 52.9246 40.244 53.3888 39.9911 61.9489C39.8382 67.1228 39.5675 71.14 39.354 71.401C38.7694 72.1156 36.9737 71.9569 36.5432 71.1525C36.3365 70.7663 36.1674 68.8176 36.1674 66.822C36.1674 62.7853 35.832 62.0527 33.9838 62.0527C32.0874 62.0527 31.8109 62.9777 31.8109 69.3217C31.8109 73.2362 31.6768 75.111 31.3752 75.4126C30.6849 76.1029 28.9822 75.9419 28.5563 75.146Z" fill="white"/>
+    <path  d="M22.1902 118.324L20.4023 116.509H54.1378H87.8732L86.0853 118.324L84.2974 120.139H54.1378H23.9781L22.1902 118.324Z" fill="white"/>
+    <path  d="M4.75442 111.415C4.22589 110.831 4.15946 110.473 4.43459 109.691L4.78185 108.704H54.1378H103.494L103.841 109.691C104.116 110.473 104.05 110.831 103.521 111.415C102.857 112.149 102.635 112.153 54.1378 112.153C5.64032 112.153 5.41847 112.15 4.75442 111.415Z" fill="white"/>
+    <path  d="M89.3269 94.3517C90.5403 92.5876 90.8846 92.3398 93.096 91.6386C98.2231 90.0131 101.862 86.945 104.332 82.164C106.227 78.4981 106.984 75.7039 107.011 72.2802C107.058 66.2325 102.932 61.8564 95.9313 60.5283L93.5276 60.0723V58.3399C93.5276 56.2391 93.684 56.21 97.865 57.5307C103.157 59.2025 107.445 62.9417 109.152 67.3739C111.593 73.7121 108.304 83.8647 101.633 90.5842C98.1825 94.0597 94.9055 95.7231 90.8503 96.0573L87.9915 96.2931L89.3269 94.3517Z" fill="white"/>
+    </svg>,
+    content :[{
+        nameEn : "Caffee Espresso single / double",
+        nameAr : "قهوة اسبريسو عادي / دبل",
+        price : "20 / 25 AED",
+        img : img,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Macchiato",
+        nameAr : "ماكياتو",
+        price : "22 AED",
+        img : img,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Cappuccino",
+        nameAr : "كابتشينو",
+        price : "25 AED",
+        img : cappuccino,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Caffee Latte",
+        nameAr : "كافيه لاتيه",
+        price : "25 AED",
+        img : late,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Americano",
+        nameAr : "امريكانو",
+        price : "23 AED",
+        img : americano,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Tea",
+        nameAr : "شاي",
+        price : "25 AED",
+        img : img,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Hot Chocolate",
+        nameAr : "شوكولاتا ساخنة",
+        price : "32 AED",
+        img : img,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Black Caffee",
+        nameAr : "قهوة داكنة",
+        price : "25 AED",
+        img : img,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Moroccan Small/ Large",
+        nameAr : "شاي مغربي صغير / كبير",
+        price : "35 / 45 AED",
+        img : moroccan,
+        id : 1,
+        desAr :"",
+        descEn : ""
+    },{
+        nameEn : "Turkish Caffee Small",
+        nameAr : "قهوة تركية صغيرة",
+        price : "20 AED",
+        img : turkish_caffee,
         id : 1,
         desAr :"",
         descEn : ""
