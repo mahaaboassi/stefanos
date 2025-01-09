@@ -921,6 +921,7 @@ export const data = [
         id : 1,
         desAr :"",
         descEn : "",
+        key:"small",
         images : [pepsi_1,pepsi_2,pepsi_3]
     },{
         nameEn : "Hildon Still Small/Large",
@@ -930,6 +931,7 @@ export const data = [
         id : 1,
         desAr :"",
         descEn : "",
+        key:"small",
         images : []
     },{
         nameEn : "Sparkling Small/Large",
@@ -939,6 +941,7 @@ export const data = [
         id : 1,
         desAr :"",
         descEn : "",
+        key:"small",
         images : []
     },{
         nameEn : "Non-Alcoholic Beer",
@@ -948,6 +951,7 @@ export const data = [
         id : 1,
         desAr :"",
         descEn : "",
+        key:"small",
         images : []
     },{
         nameEn : "Iced Tea / Iced Coffee",
@@ -957,6 +961,7 @@ export const data = [
         id : 1,
         desAr :"",
         descEn : "",
+        key:"small",
         images : [tea_1,coffe_1]
     },{
         nameEn : "Engergy Drink",
@@ -966,6 +971,7 @@ export const data = [
         id : 1,
         desAr :"",
         descEn : "",
+        key:"small",
         images : []
     },{
         nameEn : "Frishly Sequeezed Fruit Juice",
@@ -975,6 +981,7 @@ export const data = [
         id : 1,
         desAr :"",
         descEn : "",
+        key:"small",
         images : [fruit_1,fruit_2,fruit_3,fruit_4,fruit_5]
     },{
         nameEn : "Orangestraw",
@@ -984,6 +991,7 @@ export const data = [
         id : 1,
         desAr :"",
         descEn : "",
+        key:"small",
         images : []
     },{
         nameEn : "Strawbull",
@@ -993,6 +1001,7 @@ export const data = [
         id : 1,
         desAr :"",
         descEn : "",
+        key:"small",
         images : []
     },{
         nameEn : "Lemonbull",
@@ -1002,6 +1011,7 @@ export const data = [
         id : 1,
         desAr :"",
         descEn : "",
+        key:"small",
         images : []
     },{
         nameEn : "Bananaapple",
@@ -1011,6 +1021,7 @@ export const data = [
         id : 1,
         desAr :"",
         descEn : "",
+        key:"small",
         images : []
     },{
         nameEn : "Lemonmint",
@@ -1020,6 +1031,7 @@ export const data = [
         id : 1,
         desAr :"",
         descEn : "",
+        key:"small",
         images : []
     },{
         nameEn : "Pinorange",
@@ -1028,6 +1040,7 @@ export const data = [
         img : pinorange,
         id : 1,
         desAr :"",
+        key:"small",
         descEn : ""
     },]
 },{
