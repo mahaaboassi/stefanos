@@ -91,11 +91,13 @@ import strawbull from "./images/starb.webp"
 import lemonbull from "./images/lemon.webp"
 import bananaapple from "./images/banana.webp"
 import mint from "./images/mint.webp"
-import pepsi from "./images/Frame 70.png"
+import pepsi_1 from "./images/pepsi.webp"
+import pepsi_2 from "./images/mirinda.webp"
+import pepsi_3 from "./images/sevenUp.webp"
 import hildon from "./images/hilion.webp"
 import sparkling from "./images/sparkling.webp"
-import beer from "./images/bira.webp"
-import red_bull from "./images/red_bull.webp"
+import beer from "./images/Frame 340.webp"
+import red_bull from "./images/Frame 342.webp"
 import tea_1 from "./images/tea.webp"
 import coffe_1 from "./images/coffee.webp"
 import fruit_1 from "./images/fruit_1.webp"
@@ -105,11 +107,6 @@ import fruit_4 from "./images/fruit_4.webp"
 import fruit_5 from "./images/fruit_5.webp"
 
 
-
-
-import img from "./images/vecteezy_delicious-fast-food-burger-hamburger-cheeseburger_47827678.png"
-import pizza from "./images/vecteezy_delicious-pizza-with-mozzarella-and-cherry-tomatoes-isolated_49087875.png"
-import food from "./images/vecteezy_homemade-a-full-roasted-chicken-with-lemon-potatoes-and_46430071.png"
 export const data = [
     {
     id : 1,
@@ -920,11 +917,11 @@ export const data = [
         nameEn : "Pepsi, 7Up, Mirinda, Mountain Dew",
         nameAr : "بيبسي, سفن اب, ميرندا, ماونتن ديو",
         price : "18 AED",
-        img : pepsi,
+        img : pepsi_1,
         id : 1,
         desAr :"",
         descEn : "",
-        images : []
+        images : [pepsi_1,pepsi_2,pepsi_3]
     },{
         nameEn : "Hildon Still Small/Large",
         nameAr : "هيليدون معدنية صغيرة / كبيرة",

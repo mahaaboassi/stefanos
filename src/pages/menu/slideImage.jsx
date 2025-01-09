@@ -14,7 +14,7 @@ function SlideImage({imagesslide}) {
       return () => clearInterval(interval); // Cleanup on component unmount
     }, [images.length]);
     
-    return ( <div className="slider  h-40 md:h-60">
+    return ( <div className="slider  h-52 md:h-80">
         {images.length>0 && images.map((image, index) => (
             <div
             key={index}
