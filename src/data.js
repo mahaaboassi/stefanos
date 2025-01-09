@@ -31,7 +31,7 @@ import shawarma from "././images/Frame 114.webp"
 import steak from "././images/Frame 116.webp"
 import escalope from "././images/Frame 117.webp"
 import fahita from "././images/Frame 304.webp"
-import sausage from "././images/Frame 305.webp"
+import sausage from "././images/Frame 335.webp"
 import tawook from "././images/Frame 118.webp"
 import beef from "././images/Frame 315.webp"
 import chicken from "././images/Frame 115.webp"
@@ -48,7 +48,7 @@ import margherita from "././images/Frame 316.webp"
 import vegetarian from "././images/Frame 317.webp"
 import arabica from "././images/Frame 318.webp"
 import seafood_pizza from "././images/Frame 319.webp"
-import chicken_pizza from "././images/Frame 320.webp"
+import chicken_pizza from "././images/Frame 336.webp"
 import pepperoni from "././images/Frame 321.webp"
 import turkey_pizza from "././images/Frame 322.webp"
 // Main Course
@@ -665,7 +665,7 @@ export const data = [
         images : []
     },{
         nameEn : "Turkey Pizza",
-        nameAr : "بيتزا تركية",
+        nameAr : "بيتزا تركي",
         price : "60 AED",
         img : turkey_pizza,
         id : 1,
@@ -791,7 +791,7 @@ export const data = [
         descEn : "",
         images : []
     },{
-        nameEn : "Set Menu Per person (2min Person)",
+        nameEn : "Set Menu Per person (2 minimum Person)",
         nameAr : "قائمة طعام مميزة (شخصين حد ادنى)",
         price : "125 AED",
         img : set_menu_1,
@@ -800,7 +800,7 @@ export const data = [
         descEn : "",
         images : []
     },{
-        nameEn : "Set Menu Per person (2min Person)",
+        nameEn : "Set Menu Per person (2 minimum Person)",
         nameAr : "قائمة طعام مميزة (شخصين حد ادنى)",
         price : "165 AED",
         img : set_menu_2,
@@ -854,11 +854,11 @@ export const data = [
         nameEn : "cake",
         nameAr : "كيك",
         price : "35 AED",
-        img : cake,
+        img : cake_1,
         id : 1,
         desAr :"",
         descEn : "",
-        images : [cake_1, cake_2,cake_3]
+        images : []
     },{
         nameEn : "Fruit Salad",
         nameAr : "سلطة فواكه",
