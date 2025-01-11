@@ -65,7 +65,7 @@ import risotto_seafood from "./images/Frame 324.webp"
 import risotto_mashroom from "./images/Frame 64.webp"
 import risotto_chicken from "./images/Frame 61.webp"
 import set_menu_2 from "./images/Frame 328.webp"
-import set_menu_1 from "./images/Frame 328.webp"
+import set_menu_1 from "./images/Frame 351.webp"
 // Desert
 import Knafi from "./images/Frame 67.webp"
 import cake from "./images/Frame 68.png"
@@ -233,7 +233,7 @@ export const data = [
         descEn : "",
         images : []
     },{
-        nameEn : "Spicy Patato",
+        nameEn : "Spicy Potato",
         nameAr : "بطاطا حرة",
         price : "30 AED",
         img : patato,
