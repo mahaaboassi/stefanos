@@ -810,7 +810,7 @@ export const data = [
     },{
         nameEn : "Set Menu Per person (2 minimum Person)",
         nameAr : "قائمة طعام مميزة (شخصين حد ادنى)",
-        price : "125 AED",
+        price : "250 AED",
         img : set_menu_1,
         id : 1,
         desAr :"",
@@ -819,7 +819,7 @@ export const data = [
     },{
         nameEn : "Set Menu Per person (2 minimum Person)",
         nameAr : "قائمة طعام مميزة (شخصين حد ادنى)",
-        price : "165 AED",
+        price : "330 AED",
         img : set_menu_2,
         id : 1,
         desAr :"",
