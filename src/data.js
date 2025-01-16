@@ -808,8 +808,8 @@ export const data = [
         descEn : "",
         images : []
     },{
-        nameEn : "Set Menu Per person (2 minimum Person)",
-        nameAr : "قائمة طعام مميزة (شخصين حد ادنى)",
+        nameEn : "Set Menu For 2 Person",
+        nameAr : "قائمة طعام مميزة لشخصين",
         price : "250 AED",
         img : set_menu_1,
         id : 1,
@@ -817,8 +817,8 @@ export const data = [
         descEn : "",
         images : []
     },{
-        nameEn : "Set Menu Per person (2 minimum Person)",
-        nameAr : "قائمة طعام مميزة (شخصين حد ادنى)",
+        nameEn : "Set Menu For 2 Person",
+        nameAr : "قائمة طعام مميزة لشخصين",
         price : "330 AED",
         img : set_menu_2,
         id : 1,
