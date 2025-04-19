@@ -246,7 +246,7 @@ export const data = [
             images : []
         },{
             nameEn : "Avocado Toast",
-            nameAr : "توست افوكادو",
+            nameAr : "توست افوكادو",
             price : "40 AED",
             img : toast,
             id : 10,
