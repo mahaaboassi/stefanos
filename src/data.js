@@ -115,6 +115,9 @@ import juice_7 from "./images/227.webp"
 import juice_8 from "./images/228.webp"
 // Breakfast Images
 import eggs_1 from "./images/-2.webp"
+import eggs_1_1 from "./images/30.webp"
+import eggs_1_2 from "./images/31.webp"
+import eggs_1_3 from "./images/32.webp"
 import omelet from "./images/-3.webp"
 import eggs_2 from "./images/33.webp"
 import eggs_3 from "./images/28.webp"
@@ -189,7 +192,7 @@ export const data = [
             id : 3,
             desAr :"",
             descEn : "",
-            images : []
+            images : [eggs_2,eggs_1_1,eggs_1_2,eggs_1_3]
         },{
             nameEn : "Scrambled Egg Croissant",
             nameAr : "كرواسون بيض مخفوق ",
