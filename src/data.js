@@ -281,11 +281,29 @@ export const data = [
             descEn : "",
             images : []
         },{
+            nameEn : "HUMMUS, SPICY POTATO, OR MOUTABBAL",
+            nameAr : "حمص، بطاطا حارة،أو متبل",
+            price : "30 AED",
+            img : "",
+            id : 14,
+            desAr :"",
+            descEn : "",
+            images : [hommus,patato,moutable]
+        },{
+            nameEn : "FALAFEL (PLATE OR SANDWICH)",
+            nameAr : "طبق فلافل أو ساندویتش",
+            price : "35 AED",
+            img : falafel,
+            id : 15,
+            desAr :"",
+            descEn : "",
+            images : []
+        },{
             nameEn : "French Fries Sandwich",
             nameAr : "سندويش بطاطس مقلية",
             price : "25 AED",
             img : fries_patatos,
-            id : 14,
+            id : 16,
             desAr :"",
             descEn : "",
             images : []
@@ -294,7 +312,7 @@ export const data = [
             nameAr : "الأفطار العربي من ستيفانوس",
             price : "65 AED",
             img : arabic_break,
-            id : 15,
+            id : 17,
             desAr :"",
             descEn : "",
             images : []
@@ -303,7 +321,7 @@ export const data = [
             nameAr : "أفطار ستيفانوس",
             price : "75 AED",
             img : stefanos_break,
-            id : 16,
+            id : 18,
             desAr :"",
             descEn : "",
             images : []
