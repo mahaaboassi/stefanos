@@ -105,7 +105,14 @@ import fruit_2 from "./images/fruit_2.webp"
 import fruit_3 from "./images/fruit_3.webp"
 import fruit_4 from "./images/fruit_4.webp"
 import fruit_5 from "./images/fruit_5.webp"
-
+import juice_1 from "./images/1.webp"
+import juice_2 from "./images/2.webp"
+import juice_3 from "./images/3.webp"
+import juice_4 from "./images/4.webp"
+import juice_5 from "./images/5.webp"
+import juice_6 from "./images/6.webp"
+import juice_7 from "./images/7.webp"
+import juice_8 from "./images/10.webp"
 // Breakfast Images
 import eggs_1 from "./images/-2.webp"
 import omelet from "./images/-3.webp"
@@ -1118,41 +1125,81 @@ export const data = [
     <path d="M24.461 124.45C5.32271 119.306 4.70181 119.073 5.25597 117.261C5.62683 116.049 6.14592 115.587 7.13957 115.587C7.64729 115.587 16.0816 117.724 25.8824 120.335C44.2181 125.22 44.9728 125.492 44.9728 127.219C44.9728 127.818 43.3715 129.42 42.8363 129.356C42.7135 129.341 34.4446 127.134 24.461 124.45Z" fill="white"/>
     </svg>,
     content :[{
-        nameEn : "Pepsi, 7Up, Mirinda, Mountain Dew",
-        nameAr : "بيبسي, سفن اب, ميرندا, ماونتن ديو",
-        price : "18 AED",
-        img : pepsi_1,
-        id : 1,
-        desAr :"",
-        descEn : "",
-        key:"small",
-        images : [pepsi_1,pepsi_2,pepsi_3]
-    },{
-        nameEn : "Hildon Still Small/Large",
-        nameAr : "هيليدون معدنية صغيرة / كبيرة",
-        price : "15 / 22 AED",
-        img : hildon,
+        nameEn : "Green Refreshing Juice",
+        nameAr : "عصیر الانتعاش الأخضر",
+        price : "35 AED",
+        img : juice_1,
         id : 1,
         desAr :"",
         descEn : "",
         key:"small",
         images : []
     },{
-        nameEn : "Sparkling Small/Large",
-        nameAr : "فوارة صغيرة / كبيرة",
-        price : "20 / 25 AED",
-        img : sparkling,
-        id : 1,
+        nameEn : "Morning Energy Smoothie",
+        nameAr : "سموذي الطاقة الصباحیة",
+        price : "40 AED",
+        img : juice_2,
+        id : 2,
         desAr :"",
         descEn : "",
         key:"small",
         images : []
     },{
-        nameEn : "Non-Alcoholic Beer",
-        nameAr : "بيرة بدون كحول",
-        price : "19 AED",
-        img : beer,
-        id : 1,
+        nameEn : "Sunshine Immunity Juice",
+        nameAr : "عصیر المناعة المشمس",
+        price : "33 AED",
+        img : juice_3,
+        id : 3,
+        desAr :"",
+        descEn : "",
+        key:"small",
+        images : []
+    },{
+        nameEn : "Heart Beet Elixir Juice",
+        nameAr : "عصیر الشمندر الصحي",
+        price : "35 AED",
+        img : juice_4,
+        id : 4,
+        desAr :"",
+        descEn : "",
+        key:"small",
+        images : []
+    },{
+        nameEn : "Tropical Vitality Blend Juice",
+        nameAr : "عصیر الحیویة الاستوائي",
+        price : "37 AED",
+        img : juice_5,
+        id : 5,
+        desAr :"",
+        descEn : "",
+        key:"small",
+        images : []
+    },{
+        nameEn : "Cool Breeze Refresher Juice",
+        nameAr : "عصیر الحیویة الاستوائي",
+        price : "33 AED",
+        img : juice_6,
+        id : 6,
+        desAr :"",
+        descEn : "",
+        key:"small",
+        images : []
+    },{
+        nameEn : "Strawberry Delight Smoothie",
+        nameAr : "سموذي الفراولة اللذیذ",
+        price : "40 AED",
+        img : juice_7,
+        id : 7,
+        desAr :"",
+        descEn : "",
+        key:"small",
+        images : []
+    },{
+        nameEn : "Avocado Power Boost",
+        nameAr : "سموذي الأفوكادو المغذي",
+        price : "43 AED",
+        img : juice_8,
+        id : 8,
         desAr :"",
         descEn : "",
         key:"small",
@@ -1162,27 +1209,17 @@ export const data = [
         nameAr : "شاي مثلجة / قهوة مثلجة",
         price : "19 AED",
         img : "",
-        id : 1,
+        id : 9,
         desAr :"",
         descEn : "",
         key:"small",
         images : [tea_1,coffe_1]
     },{
-        nameEn : "Engergy Drink",
-        nameAr : "مشروب الطاقة",
-        price : "28 AED",
-        img : red_bull,
-        id : 1,
-        desAr :"",
-        descEn : "",
-        key:"small",
-        images : []
-    },{
         nameEn : "Frishly Sequeezed Fruit Juice",
         nameAr : "عصير فواكه طازج",
         price : "28 AED",
         img : "",
-        id : 1,
+        id : 10,
         desAr :"",
         descEn : "",
         key:"small",
@@ -1192,7 +1229,7 @@ export const data = [
         nameAr : "اورانجسترو",
         price : "39 AED",
         img : orangestraw,
-        id : 1,
+        id : 11,
         desAr :"",
         descEn : "",
         key:"small",
@@ -1202,7 +1239,7 @@ export const data = [
         nameAr :  "ستروبول",
         price : "39 AED",
         img : strawbull,
-        id : 1,
+        id : 12,
         desAr :"",
         descEn : "",
         key:"small",
@@ -1212,7 +1249,7 @@ export const data = [
         nameAr : "ليمونبول",
         price : "39 AED",
         img : lemonbull,
-        id : 1,
+        id : 13,
         desAr :"",
         descEn : "",
         key:"small",
@@ -1222,7 +1259,7 @@ export const data = [
         nameAr : "بنانا ابل",
         price : "39 AED",
         img : bananaapple,
-        id : 1,
+        id : 14,
         desAr :"",
         descEn : "",
         key:"small",
@@ -1232,7 +1269,7 @@ export const data = [
         nameAr : "ليمون مينت",
         price : "39 AED",
         img : mint,
-        id : 1,
+        id : 15,
         desAr :"",
         descEn : "",
         key:"small",
@@ -1242,10 +1279,60 @@ export const data = [
         nameAr : "بينورانج",
         price : "39 AED",
         img : pinorange,
-        id : 1,
+        id : 16,
         desAr :"",
         key:"small",
         descEn : ""
+    },{
+        nameEn : "Pepsi, 7Up, Mirinda, Mountain Dew",
+        nameAr : "بيبسي, سفن اب, ميرندا, ماونتن ديو",
+        price : "18 AED",
+        img : pepsi_1,
+        id : 17,
+        desAr :"",
+        descEn : "",
+        key:"small",
+        images : [pepsi_1,pepsi_2,pepsi_3]
+    },{
+        nameEn : "Hildon Still Small/Large",
+        nameAr : "هيليدون معدنية صغيرة / كبيرة",
+        price : "15 / 22 AED",
+        img : hildon,
+        id : 18,
+        desAr :"",
+        descEn : "",
+        key:"small",
+        images : []
+    },{
+        nameEn : "Sparkling Small/Large",
+        nameAr : "فوارة صغيرة / كبيرة",
+        price : "20 / 25 AED",
+        img : sparkling,
+        id : 19,
+        desAr :"",
+        descEn : "",
+        key:"small",
+        images : []
+    },{
+        nameEn : "Non-Alcoholic Beer",
+        nameAr : "بيرة بدون كحول",
+        price : "19 AED",
+        img : beer,
+        id : 20,
+        desAr :"",
+        descEn : "",
+        key:"small",
+        images : []
+    },{
+        nameEn : "Engergy Drink",
+        nameAr : "مشروب الطاقة",
+        price : "28 AED",
+        img : red_bull,
+        id : 21,
+        desAr :"",
+        descEn : "",
+        key:"small",
+        images : []
     },]
 },{
     id : 10,

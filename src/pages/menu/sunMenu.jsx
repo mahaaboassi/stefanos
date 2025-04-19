@@ -37,7 +37,7 @@ function SubMenu() {
                         <div className={`lg:flex ${e.key == "small"?"second-col-small":"second-col"}  justify-center flex-col items-center`}>
                             <h5 className="capitalize text-center">{e.nameEn}</h5>  
                             <h5 className="text-center">{e.nameAr}</h5>
-                            <p>
+                            <p className="text-center">
                                 {e.price} 
                             </p>
                         </div>  

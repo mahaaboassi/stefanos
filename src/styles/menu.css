@@ -89,7 +89,8 @@
     animation: top-button 0.3s 1   ease-in-out;
 }
 .price{
-    color : var(--secondary-color)
+    color : var(--secondary-color);
+    text-align: center;
 }
 @keyframes top-button {
     0% {
