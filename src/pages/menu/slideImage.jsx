@@ -10,7 +10,7 @@ function SlideImage({imagesslide}) {
     useEffect(() => {
       const interval = setInterval(() => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-      }, 3000);
+      }, 1500);
       return () => clearInterval(interval); // Cleanup on component unmount
     }, [images.length]);
     
