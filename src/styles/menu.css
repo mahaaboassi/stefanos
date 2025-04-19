@@ -40,8 +40,8 @@
     transition: 0.3s;
 }
 .card:hover::after{
-    right: 0;
-    opacity: 1;
+    /* right: 0;
+    opacity: 1; */
 }
 .img-card{
     position: absolute;
