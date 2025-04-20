@@ -19,6 +19,12 @@ body{
   margin: 0 ;
   
 }
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: white;
+    color: black; /* optional: to make text visible on white */
+  }
+}
 body::-webkit-scrollbar {
   width: 10px;
 }
