@@ -12,10 +12,10 @@ function SubMenu() {
     useEffect(()=>{
         const temp = data.find(e => (e.id == id))
         setMenu(temp)
-        
+        window.scrollTo({ top: 0, behavior: 'smooth' }); 
 
         
-    },[])
+    },[id])
     
     return ( <div>
         
