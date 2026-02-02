@@ -27,12 +27,12 @@ function SubMenu() {
                 {/* <div className="sub-img">{menu.svg}</div> */}
                 {"id" in menu && menu.content.length>0 && menu.content.map(e=>(<div key={`Item_${e.nameEn}`}  className="content-sub flex justify-between items-center">
                     <div className="flex items-center gap-4 ">
-                        <div className={`${e.key == "small"?"first-col-small":"first-col"}`}> 
+                        <div className={`${e.key === "small"?"first-col-small":"first-col"}`}> 
                             {(e.images && e.images.length>0 )? <SlideImage imagesslide={e.images} />
                                     :
                             <img className=" photo-first-col  object-contain " src={e.img} alt={e.nameEn} />}
                         </div>
-                        <div className={`lg:flex ${e.key == "small"?"second-col-small":"second-col"}  justify-center flex-col items-center`}>
+                        <div className={`lg:flex ${e.key === "small"?"second-col-small":"second-col"}  justify-center flex-col items-center`}>
                             <h5 className="uppercase text-center">{e.nameEn}</h5>  
                             <h5 className="text-center">{e.nameAr}</h5>
                             <p className="text-center">

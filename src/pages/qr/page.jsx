@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect, useState } from "react";
 import QRCode from "qrcode";
 
 // import logo
@@ -6,7 +6,7 @@ import logo from "../../images/stefanos.png"
 import qr_img from "../../images/qr.png"
 
 function QR() {
-  // const [qrCode, setQrCode] = useState("");
+  const [qrCode, setQrCode] = useState("");
 
   // Your HTTPS link
   // const link = `${window.location.protocol}//${window.location.host}/menu`; // Replace with your link
@@ -20,7 +20,7 @@ function QR() {
               dark: "#FFFFFF", // White background
             },
           });
-        // setQrCode(qr);
+        setQrCode(qr);
       } catch (error) {
         console.error("Error generating QR code:", error);
       }
@@ -28,7 +28,8 @@ function QR() {
 
     generateQRCode();
   }, []); // Generate QR code on component mount
-
+  console.log(qrCode);
+  
   return (
     <div  className="container flex justify-center items-center">
         <div>
