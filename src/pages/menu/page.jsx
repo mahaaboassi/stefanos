@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { data } from "../../data";
 import logo from "../../images/stefanos.png"
-import soup from "../../lotties/main.json"
+// import soup from "../../lotties/main.json"
 import Lottie from "lottie-react";
 
 function Menu() {

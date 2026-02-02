@@ -10,9 +10,9 @@ function Details() {
     const [menu, setMenu] =  useState([])
     const [item, setItem] = useState({})
     useEffect(()=>{
-        const temp = data.find(e => (e.id == id))
+        const temp = data.find(e => (e.id === id))
         setMenu(temp)
-        setItem(temp.content.find(e => (e.id == subId)))
+        setItem(temp.content.find(e => (e.id === subId)))
 
         
     },[])
