@@ -943,7 +943,7 @@ export const data = [
         descEn : "",
         images : []
     },{
-        nameEn : "Grilled beef fillet",
+        nameEn : "Grilled beef fillet", 
         nameAr : "فيليه بقري مشوي",
         price : "120 AED",
         img : grilled_tenderloin,
