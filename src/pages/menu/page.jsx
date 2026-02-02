@@ -16,7 +16,7 @@ function Menu() {
     
     return ( <div>
         <div className="container-nav">
-            <div className="flex justify-center "><img className="img-move w-52 md:w-80" alt="logo" src={logo} /></div>
+            <div className="flex justify-center "><img className="img-move w-52 md:w-80" alt="stefanos" src={logo} /></div>
             <h3 className="flex justify-center uppercase py-2">Menu</h3>
         </div>
         <div  className="grid grid-cols-1 md:grid-cols-2 mt-20">

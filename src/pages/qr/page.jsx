@@ -32,7 +32,7 @@ function QR() {
   return (
     <div  className="container flex justify-center items-center">
         <div>
-            <div className="flex justify-center "><img className="img-move w-52 md:w-80" alt="logo" src={logo} /></div>
+            <div className="flex justify-center "><img className="img-move w-52 md:w-80" alt="Stefanos" src={logo} /></div>
             <div className="flex flex-col items-center justify-center gap-1 pt-4">
                 <p>Scan the QR code below to see Menu</p>
                 <p style={{direction:"rtl"}} > امسح رمز QR code أدناه لعرض القائمة </p>

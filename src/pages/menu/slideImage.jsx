@@ -18,7 +18,7 @@ function SlideImage({imagesslide}) {
         {images.length>0 && images.map((image, index) => (
             <div
             key={index}
-            className={`slide ${index == currentIndex ? "active" : ""}`}
+            className={`slide ${index === currentIndex ? "active" : ""}`}
             >
             <img className=" w-52 sm:w-52 lg:w-96" src={image} alt={`Slide ${index + 1}`} />
             </div>

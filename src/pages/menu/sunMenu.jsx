@@ -10,16 +10,15 @@ function SubMenu() {
     const navigate = useNavigate()
     const [menu, setMenu] =  useState([])
     useEffect(()=>{
-        const temp = data.find(e => (e.id == id))
+        const temp = data.find(e => (e.id === Number(id)))
         setMenu(temp)
         window.scrollTo({top: 0, left: 0, behavior: 'smooth'}); 
-        
-    },[])
+    },[id])
     
     return ( <div>
         
          <div className="container-nav">
-            <div className="flex justify-center "><img className="img-move w-52 md:w-80" alt="logo" src={logo} /></div>
+            <div className="flex justify-center "><img className="img-move w-52 md:w-80" alt="Stefanos" src={logo} /></div>
             <h3 className="flex justify-center py-2 uppercase">{menu.nameEn} / {menu.nameAr}</h3>
             <div className="flex justify-center cursor-pointer link-back uppercase" onClick={()=>navigate("/menu")}>Back</div>
         </div>
@@ -31,7 +30,7 @@ function SubMenu() {
                         <div className={`${e.key == "small"?"first-col-small":"first-col"}`}> 
                             {(e.images && e.images.length>0 )? <SlideImage imagesslide={e.images} />
                                     :
-                            <img className=" photo-first-col  object-contain " src={e.img} alt={"image"} />}
+                            <img className=" photo-first-col  object-contain " src={e.img} alt={e.nameEn} />}
                         </div>
                         <div className={`lg:flex ${e.key == "small"?"second-col-small":"second-col"}  justify-center flex-col items-center`}>
                             <h5 className="uppercase text-center">{e.nameEn}</h5>  
