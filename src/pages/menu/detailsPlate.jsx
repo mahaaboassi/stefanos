@@ -15,7 +15,7 @@ function Details() {
         setItem(temp.content.find(e => (e.id === subId)))
 
         
-    },[])
+    },[id,subId])
 
     return ( <div>
          <div className="container-nav">

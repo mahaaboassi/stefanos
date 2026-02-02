@@ -628,7 +628,7 @@ export const data = [
         desAr :"",
         descEn : "",
         images : []
-    },,{
+    },{
         nameEn : "Caprese",
         nameAr : "كابريزي",
         price : "55 AED",
